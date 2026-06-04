@@ -33,6 +33,19 @@ $accion = (isset($_POST['action'])) ? $_POST['action'] : "";
                     <p>
                         Encargado: <?php echo $pro['especialidad'] ?>
                     </p>
+                    <div class="btn-group mt-3" role="group" aria-label="">
+                        <button type="submit" name="action" value="Agregar" class="btn btn-success">
+                            Agregar
+                        </button>
+                        
+                        <button type="submit" name="action"  value="Modificar" class="btn btn-warning">
+                            Modificar
+                        < /button>
+                            
+                        <button type="submit" name="action"  value="Cancelar" class="btn btn-info">
+                            Cancelar
+                        </button>
+                    </div>
 
                 </div>
             <?php }?>
@@ -58,18 +71,18 @@ $accion = (isset($_POST['action'])) ? $_POST['action'] : "";
                     </p>
 
                     <div class="btn-group mt-3" role="group" aria-label="">
-                    <button type="submit" name="action" value="Agregar" class="btn btn-success">
-                        Agregar
-                    </button>
-                    
-                    <button type="submit" name="action"  value="Modificar" class="btn btn-warning">
-                        Modificar
-                    </button>
+                        <button type="submit" name="action" value="Agregar" class="btn btn-success">
+                            Agregar
+                        </button>
                         
-                    <button type="submit" name="action"  value="Cancelar" class="btn btn-info">
-                        Cancelar
-                    </button>
-                </div>
+                        <button type="submit" name="action"  value="Modificar" class="btn btn-warning">
+                            Modificar
+                        < /button>
+                            
+                        <button type="submit" name="action"  value="Cancelar" class="btn btn-info">
+                            Cancelar
+                        </button>
+                    </div>
 
                 </div>
             <?php } ?>
