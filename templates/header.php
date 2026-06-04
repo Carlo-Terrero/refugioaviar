@@ -12,13 +12,13 @@
         <ul class="list_nav_desktop">
             <li class="element_nav">
                 <a href="index.php">
-                    Refugios
+                    Areas
                 </a>
             </li>
 
             <li class="element_nav">
                 <a href="profecionales.php">
-                    Profecionales
+                    Equipo
                 </a>
             </li>
 
@@ -28,17 +28,17 @@
                 </a>
             </li>
 
-            <li class="element_nav">
+            <!-- <li class="element_nav">
                 <a href="nosotros.php">
                     Nosotros
                 </a>
-            </li>
+            </li> -->
 
-            <li class="element_nav">
+            <!-- <li class="element_nav">
                 <a href="contacto.php">
                     Contacto
                 </a>
-            </li>
+            </li> -->
             
         </ul>
     </nav>

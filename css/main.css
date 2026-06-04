@@ -159,34 +159,49 @@ body {
     background-image: url("https://images.unsplash.com/photo-1637701939958-eca9a4b483a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDY3NzJ8MHwxfHNlYXJjaHw1OHx8c2VsdmF8ZW58MHx8fHwxNzgwNjA0MTA2fDA&ixlib=rb-4.1.0");
 }
 
-.container_section_aves .content {
+
+.container_section_aves .content,
+.container_pros .content {
     display: flex;
     flex-direction: column;
 }
 
+.content_carts_pro,
 .container_aves_cars {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
 }
 
 /* Cards Aves */
+.card_pros,
 .card_reyes {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     border-radius: 10px;
 }
 
+
 .card_reyes .img_rey{
     max-height: 130px;
     border-radius: 10px;
+}
+
+.card_pros .img_pro{
+    height: 140px;
+    border-radius: 10px;
+}
+
+.card_pros {
+    max-width: 210px;
 }
 /* Fin cards Aves */
 
 
 /* Profecionales */
-.primer_container_pro {
+.container_pros {
     background-image: url("https://imgs.search.brave.com/osLWItvOCCBu4gaq3GB_vkpVpes-3y0hRDs4f-jdcfM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi90aWVy/cmEtY29sb3JpZGEt/c29zdGVuaWRhLXBv/ci1jaW5jby1qJUMz/JUIzdmVuZXMtZXhw/bG9yYWRvcmVzLWhl/Y2hvcy1jb24tYWkt/Z2VuZXJhdGl2by1n/ZW5lcmFkby1lc3Rh/LWltYWdlbi1yZXBy/ZXNlbnRhLXVuYS12/aWJyYW50ZS15LTI3/NTIyNDA1OC5qcGc");
 }
 
