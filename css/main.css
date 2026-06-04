@@ -147,9 +147,42 @@ body {
     padding: 50px;
 }
 
-.primer_container_aves{
+#container_exoticas{
     background-image: url("https://images.unsplash.com/photo-1636210006949-1cd01518a557?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDY3NzJ8MHwxfHNlYXJjaHwxODV8fGJvc3F1ZSUyMHRyb3BpY2FsfGVufDB8fHx8MTc4MDU3MjcwMHww&ixlib=rb-4.1.0");
 }
+
+#container_autoctonos{
+    background-image: url("https://images.unsplash.com/photo-1577735730413-79418e956075?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDY3NzJ8MHwxfHNlYXJjaHwxNzF8fHNlbmRlcm9zfGVufDB8fHx8MTc4MDYwNDQwMHww&ixlib=rb-4.1.0");
+}
+
+#container_depredadores{
+    background-image: url("https://images.unsplash.com/photo-1637701939958-eca9a4b483a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDY3NzJ8MHwxfHNlYXJjaHw1OHx8c2VsdmF8ZW58MHx8fHwxNzgwNjA0MTA2fDA&ixlib=rb-4.1.0");
+}
+
+.container_section_aves .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_aves_cars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Cards Aves */
+.card_reyes {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card_reyes .img_rey{
+    max-height: 130px;
+    border-radius: 10px;
+}
+/* Fin cards Aves */
 
 
 /* Profecionales */
