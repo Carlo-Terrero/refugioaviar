@@ -40,7 +40,7 @@ $accion = (isset($_POST['action'])) ? $_POST['action'] : "";
                         
                         <button type="submit" name="action"  value="Modificar" class="btn btn-warning">
                             Modificar
-                        < /button>
+                        </button>
                             
                         <button type="submit" name="action"  value="Cancelar" class="btn btn-info">
                             Cancelar
@@ -77,7 +77,7 @@ $accion = (isset($_POST['action'])) ? $_POST['action'] : "";
                         
                         <button type="submit" name="action"  value="Modificar" class="btn btn-warning">
                             Modificar
-                        < /button>
+                        </button>
                             
                         <button type="submit" name="action"  value="Cancelar" class="btn btn-info">
                             Cancelar
