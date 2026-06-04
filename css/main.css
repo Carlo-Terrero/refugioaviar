@@ -183,7 +183,6 @@ body {
     border-radius: 10px;
 }
 
-
 .card_reyes .img_rey{
     max-height: 130px;
     border-radius: 10px;
@@ -207,7 +206,39 @@ body {
 
 /* Fin profecionales */
 
+.login {
+    background-image: url("https://images.unsplash.com/photo-1668503293333-d21f2c932b05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDY3NzJ8MHwxfHNlYXJjaHw0N3x8YWRtaW58ZW58MHx8fHwxNzgwNjA2ODI0fDA&ixlib=rb-4.1.0");
+}
 
+.login .content {
+   padding: 0;
+   max-width: 226px;
+}
+
+.login .content .container_label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+}
+
+.login .content .container_label input {
+    width: 100%;
+}
+
+.btn_submit {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+#gestor {
+    background-image: url("https://images.unsplash.com/photo-1590015217013-08405f57e0fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDY3NzJ8MHwxfHNlYXJjaHwzMXx8cmVmdWdpb3MlMjBhdmVzfGVufDB8fHx8MTc4MDUyNDI1MHww&ixlib=rb-4.1.0");
+}
 /* Fin Main  */
 
 /* Footer */
