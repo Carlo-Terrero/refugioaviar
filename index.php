@@ -23,7 +23,7 @@
             llamativas y exóticas.
         </p>
         <button class="btn_nav_individual" >
-            <a href="#">
+            <a href="aves.php#container_exoticas">
                 Visitar
             </a>
         </button>
@@ -40,7 +40,7 @@
             y delicadas que nos alegran las mañanas
         </p>
         <button class="btn_nav_individual" >
-            <a href="#">
+            <a href="aves.php#container_autoctonos">
                 Visitar
             </a>
         </button>
@@ -57,7 +57,7 @@
             que controlan las plagas y restos de otros animales.
         </p>
         <button class="btn_nav_individual" >
-            <a href="#">
+            <a href="aves.php#container_depredadores">
                 Visitar
             </a>
         </button>

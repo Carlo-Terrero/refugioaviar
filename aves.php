@@ -32,7 +32,7 @@ foreach($reyesAereos as $rey){
 
 <?php  ?>
 
-<section id="container_exoticas" class="parallax primer_container_aves">
+<section id="container_exoticas" class="parallax container_section_aves">
     <div class="content">
         <h2>
             Colores del firmamento
@@ -65,7 +65,7 @@ foreach($reyesAereos as $rey){
     </div>
 </section>
 
-<section id="container_autoctonos" class="parallax">
+<section id="container_autoctonos" class="parallax container_section_aves">
     <div class="content">
 
         <h2>
@@ -101,7 +101,7 @@ foreach($reyesAereos as $rey){
     </div>
 </section>
 
-<section id="container_depredadores" class="parallax">
+<section id="container_depredadores" class="parallax container_section_aves">
     <div class="content">
 
         <h2>
