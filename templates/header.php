@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,29 +32,19 @@
                 </a>
             </li>
 
-            <!-- <li class="element_nav">
-                <a href="nosotros.php">
-                    Nosotros
-                </a>
-            </li> -->
-
-            <!-- <li class="element_nav">
-                <a href="contacto.php">
-                    Contacto
-                </a>
-            </li> -->
-            
-            <li class="element_nav">
-                <a href="./login.php">
-                    In
-                </a>
-            </li>
-
-            <li class="element_nav">
-                <a href="./logout.php">
-                    Out
-                </a>
-            </li>
+            <?php if(!isset($_SESSION['profesional'])): ?>
+                <li class="element_nav">
+                    <a href="./login.php">
+                        In
+                    </a>
+                </li>
+            <?php else: ?>
+                <li class="element_nav">
+                    <a href="./logout.php">
+                        Out
+                    </a>
+                </li>
+            <?php endif ?>
         </ul>
     </nav>
 

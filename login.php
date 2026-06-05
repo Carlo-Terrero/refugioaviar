@@ -1,16 +1,8 @@
 <?php 
-require("./templates/header.php"); 
 require("./admin/config/bd.php");
+require("./templates/header.php"); 
 
-session_start();
-
-// $mailUser = $_POST['mail'];
-// $passUser = $_POST['contasenia'];
-// $sentenciaSQL = $conexion->prepare("SELECT * FROM profesional_cuidador WHERE mail = $mailUser and password_pro = $passUser");
-// $sentenciaSQL->execute();
-// $profecional = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
-
-
+// session_start();
 
 if($_POST){
 
@@ -25,10 +17,9 @@ if($_POST){
 
     if($profecional){
         
-        // print_r($profecional);
-        $_SESSION['usuario'] = $profecional;
-        print_r($_SESSION['usuario']->name);
-        // $_SESSION['nombreUsuario'] = "Develoteca";
+        $_SESSION['profesional'] = $profecional["name"];
+        $_SESSION['userType'] = $profecional["type_suer"];
+        // print_r($_SESSION['usuario']->name);
 
         header('Location:gestor.php');
     }else{
