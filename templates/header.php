@@ -45,6 +45,12 @@
                     In
                 </a>
             </li>
+
+            <li class="element_nav">
+                <a href="./logout.php">
+                    Out
+                </a>
+            </li>
         </ul>
     </nav>
 
